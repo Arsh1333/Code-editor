@@ -16,9 +16,3 @@ function run() {
 html_code.onkeyup = () => run();
 css_code.onkeyup = () => run();
 js_code.onkeyup = () => run();
-
-/*
-html_code.value = localStorage.html_code;
-css_code.value = localStorage.css_code;
-js_code.value = localStorage.js_code;
-*/
