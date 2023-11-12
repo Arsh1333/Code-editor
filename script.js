@@ -12,7 +12,6 @@ function run() {
     `<style>${localStorage.css_code}</style>` + localStorage.html_code;
   result.contentWindow.eval(localStorage.js_code);
 }
-
 html_code.onkeyup = () => run();
 css_code.onkeyup = () => run();
 js_code.onkeyup = () => run();
